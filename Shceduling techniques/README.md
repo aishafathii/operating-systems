@@ -1,4 +1,4 @@
-java program to simulate the following schedulers: 
+A java program to simulate the following schedulers: 
 1. Non-Preemptive   Priority Scheduling with context switching (with the starvation problem solved) 
 2. Non-Preemptive  Shortest- Job  First (SJF) (with the starvation problem solved)
 3. Shortest-Remaining Time First (SRTF)  Scheduling with context switching (with the starvation 
