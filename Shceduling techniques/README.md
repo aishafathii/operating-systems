@@ -11,7 +11,6 @@ b. A new factor is suggested to attach with each submitted process in our AGAT s
 This factor based on (priority, arrival time and remaining service time). The equation summarizes this 
 relation is:  
         • Set V1 as (if last-arrival-time > 10 then (last-arrival-time(all processes) /10) else 1) 
-
         • Set V2 as (if max-remaining burst time > 10 then (max-remaining burst time(all processes) /10) else 1) 
              
              
