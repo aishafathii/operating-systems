@@ -24,8 +24,8 @@ replaced with the process with the best (least) AGAT factor if any.
 
 d. We have 3 scenarios for a running process  
 
-        i. The running process used all its quantum time and it still has job to do (add this process to the end of the queue, then increases its quantum time by 2).Next process            is picked from queue. 
+        i. The running process used all its quantum time and it still has job to do (add this process to the end of the queue, then increases its quantum time by 2).Next process is picked from queue. 
 
-        ii. The running process didn’t use all its quantum time because it was removed in favor of a process with better AGAT factor (add this process to the end of the queue,              then increases its quantum time by the remaining quantum time for it). 
+        ii. The running process didn’t use all its quantum time because it was removed in favor of a process with better AGAT factor (add this process to the end of the queue, then increases its quantum time by the remaining quantum time for it). 
 
         iii. The running process finished its job (set its quantum time to zero and remove it from ready queue and add it to the dead list).
