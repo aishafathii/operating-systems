@@ -13,7 +13,8 @@ relation is:
         • Set V1 as (if last-arrival-time > 10 then (last-arrival-time(all processes) /10) else 1) 
 
         • Set V2 as (if max-remaining burst time > 10 then (max-remaining burst time(all processes) /10) else 1) 
-                  
+             
+             
                   
                   AGAT-Factor = (10-Priority) + ceiling(Arrival Time/v1) + ceiling(Remaining Burst Time/v2)  
  
